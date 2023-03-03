@@ -1,44 +1,48 @@
 .red {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    border-radius: 82% 18% 17% 83% / 30% 16% 84% 70%;
-    background: linear-gradient(49deg, rgba(195, 34, 186, 1) 5%, rgb(233, 81, 81) 62%);
-    
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 82% 18% 17% 83% / 30% 16% 84% 70%;
+  background: linear-gradient(
+    49deg,
+    rgba(195, 34, 186, 1) 5%,
+    rgb(233, 81, 81) 62%
+  );
 }
 
 .blue {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    background: linear-gradient(49deg, rgba(61, 131, 191, 1) 5%, rgba(32, 9, 166, 1) 73%);
-    border-radius: 73% 27% 43% 57% / 73% 67% 33% 27%;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: linear-gradient(
+    49deg,
+    rgba(61, 131, 191, 1) 5%,
+    rgba(32, 9, 166, 1) 73%
+  );
+  border-radius: 73% 27% 43% 57% / 73% 67% 33% 27%;
 }
 
-
-
 .item {
-    display: flex;
-    align-items: center;
-    background-color: red;
-    min-width: 200px;
-    margin-bottom: 15px;
-    padding: 8px;
+  display: flex;
+  align-items: center;
+  background-color: red;
+  min-width: 200px;
+  margin-bottom: 15px;
+  padding: 8px;
 
-    border-radius: 13px;
-    background: #e0e0e0;
-    box-shadow: -11px -11px 22px #7b7b7b,
-        11px 11px 22px #ffffff;
+  border-radius: 13px;
+  background: #e0e0e0;
+  box-shadow: -11px -11px 22px #7b7b7b, 11px 11px 22px #ffffff;
 }
 
 .avatar {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .name {
-    margin-left: 15px;
-    font-weight: bold;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.1;
+  margin-left: 15px;
+  font-weight: bold;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.1;
 }
